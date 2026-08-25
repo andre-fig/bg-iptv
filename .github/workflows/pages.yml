@@ -34,7 +34,7 @@ jobs:
       - name: Build static site
         run: |
           mkdir _site
-          cp index.html playlist.m3u8 _site/
+          cp playlist.m3u8 _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
